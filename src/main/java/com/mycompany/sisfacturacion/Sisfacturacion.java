@@ -18,4 +18,12 @@ public class Sisfacturacion {
     {
         System.out.println("Cliente agregado"+ nombre);
     }
+    
+    public void agregarPlato(String nombrePlato, double precio)
+    {
+        System.out.println("Plato agregado: "+nombrePlato+" con precio "+precio);
+    
+    }
+    
+    
 }
